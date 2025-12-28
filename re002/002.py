@@ -31,3 +31,11 @@ len(a)
 # 快速判断存不存在于列表中 in
 # ("大于" if int(number) >= 30 else "小于")
 print(f"3 {("在" if 3 in a else "不在")} 列表 a 中")
+# 按一定规则快速生成一个列表
+# 列表推导式 num_list = [ (i*2) for i in data ]
+# 列表推导式 num_list = [ (i*2) for i in data if i > 3]
+num_list = [i*2 for i in range(10)]
+num_list2 = [i*2 for i in range(10) if i > 3]
+print(num_list)
+print(num_list2)
+# endregion
