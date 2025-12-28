@@ -90,6 +90,7 @@ match a:
         print("4")
     case _:
         print("兜底")
+# 注意：case _: default
 # endregion
 
 # region 循环
