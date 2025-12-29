@@ -8,6 +8,9 @@
 # region 列表 list
 # 简单创建
 num_list = []
+
+ccc:list[int] = [1,2,3]
+
 a = [1,3,"str"]
 for i in a :
     print(i)
@@ -61,7 +64,9 @@ print(s.find("xx"))
 # endregion
 
 # region 元组 tuple 一旦定义不能修改
-t1 = (1,3,4,5,4)
+
+t1:tuple[int] = (1,3,4,5,4)
+
 # 定义空元组
 t2 = ()
 t3 = tuple()
@@ -80,7 +85,9 @@ print(a)
 # region 集合 set 自动去重
 # 无序 不支持索引访问
 # 无序
-s1 = {1,3,3,4,6,7,3,1,2,0} # 自动去重
+
+s1:set[int] = {1,3,3,4,6,7,3,1,2,0} # 自动去重
+
 # 不能空大括号 -> 是字典 dict
 # 空集合
 s2 = set()
@@ -102,7 +109,9 @@ print(s1)
 
 # region 字典 Map 键值对
 # key 不能重复可以修改
-dict1 = {"a":1 , "b":3}
+
+dict1:dict[str,int] = {"a":1 , "b":3}
+
 dict2 = {}
 dict3 = dict()
 # 如果没有会报错
