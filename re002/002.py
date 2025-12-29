@@ -60,7 +60,7 @@ print(s.find("xx"))
 # endwith(子串)
 # endregion
 
-# region 元组 tuple 一旦定义不能秀修改
+# region 元组 tuple 一旦定义不能修改
 t1 = (1,3,4,5,4)
 # 定义空元组
 t2 = ()
