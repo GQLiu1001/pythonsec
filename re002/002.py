@@ -10,8 +10,8 @@
 num_list = []
 
 ccc:list[int] = [1,2,3]
+a:list[int | str] = [1,3,"str"]
 
-a = [1,3,"str"]
 for i in a :
     print(i)
 # 修改

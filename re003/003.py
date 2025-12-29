@@ -105,3 +105,11 @@ def calc(a, b, oper):
 calc(1, 2, lambda x, y: x + y)
 # 同理，传递 lambda 求积函数
 calc(1, 2, lambda x, y: x * y)
+
+def fuc_num(a:int) -> int:
+    return a+1
+
+def fuc_list(a:int) -> list[int]:
+    return [a+1,1]
+
+print(fuc_list(3))
